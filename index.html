@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bites & Ice | Bubble Tea, Popsicles & Sweet Treats in Port Harcourt</title>
+  <meta name="description" content="Bites & Ice is a bubble tea and dessert spot in Port Harcourt offering bubble tea, popsicles, iced teas, lemonades, hot chocolate, mini pancakes, corn dog waffles, pastries and more. Visit us on Evo Road or order via WhatsApp." />
+  <meta name="keywords" content="Bites and Ice, bubble tea Port Harcourt, boba tea Port Harcourt, popsicles Port Harcourt, dessert cafe Port Harcourt, mini pancakes Port Harcourt, lemonade Port Harcourt, pastries Port Harcourt" />
+  <meta name="author" content="Bites & Ice" />
+
+  <meta property="og:title" content="Bites & Ice | Bubble Tea, Popsicles & Sweet Treats in Port Harcourt" />
+  <meta property="og:description" content="Refreshing bubble tea, popsicles, iced teas, lemonades, mini pancakes, pastries and more in Port Harcourt." />
+  <meta property="og:image" content="https://i.postimg.cc/WpM2R1Zd/Make-this-for-202603220747.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://prosperoliverc124-byte.github.io/bites-and-ice/" />
+
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/J7gh82YL/IMG-20260322-055212.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <img src="https://i.postimg.cc/J7gh82YL/IMG-20260322-055212.png" alt="Bites and Ice logo" class="loader-logo" />
+      <h1>Bites & Ice</h1>
+      <div class="loader-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="brand">
+        <img src="https://i.postimg.cc/J7gh82YL/IMG-20260322-055212.png" alt="Bites and Ice logo" />
+        <span>Bites & Ice</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#features">Features</a>
+        <a href="#hours">Hours</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="tel:08163997880" class="nav-call"><i class="fa-solid fa-phone"></i> Call</a>
+        <a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank" class="nav-order"><i class="fa-brands fa-whatsapp"></i> Order</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#features">Features</a>
+      <a href="#hours">Hours</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#location">Location</a>
+      <a href="tel:08163997880"><i class="fa-solid fa-phone"></i> Call Now</a>
+      <a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: url('https://i.postimg.cc/WpM2R1Zd/Make-this-for-202603220747.jpg');">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <span class="hero-tag">Bubble Tea • Popsicles • Sweet Treats</span>
+        <h1>Port Harcourt's coolest spot for bubble tea, desserts & sweet bites.</h1>
+        <p class="hero-sub">
+          Refreshing drinks, delicious snacks and fun treats — visit us in New GRA
+          or order through WhatsApp and phone.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Order on WhatsApp</a>
+          <a href="tel:08163997880" class="btn btn-outline"><i class="fa-solid fa-phone"></i> Call Now</a>
+        </div>
+
+        <div class="hero-info">
+          <span><i class="fa-solid fa-location-dot"></i> New GRA, Port Harcourt</span>
+          <span id="heroStatus"><i class="fa-solid fa-clock"></i> Checking...</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat-card reveal">
+          <h3><span class="counter" data-target="4.1">0</span></h3>
+          <p>Google Rating</p>
+        </div>
+        <div class="stat-card reveal delay-1">
+          <h3><span class="counter" data-target="14">0</span>+</h3>
+          <p>Customer Reviews</p>
+        </div>
+        <div class="stat-card reveal delay-2">
+          <h3>8</h3>
+          <p>Menu Favorites</p>
+        </div>
+        <div class="stat-card reveal delay-3">
+          <h3>7</h3>
+          <p>Days Open Weekly</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info">
+      <div class="container quick-grid">
+        <div class="info-card reveal">
+          <i class="fa-solid fa-store"></i>
+          <div>
+            <h3>Status</h3>
+            <p id="liveStatus"><span class="status-dot"></span> Checking...</p>
+          </div>
+        </div>
+        <div class="info-card reveal delay-1">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h3>Call</h3>
+            <p><a href="tel:08163997880">0816 399 7880</a></p>
+          </div>
+        </div>
+        <div class="info-card reveal delay-2">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h3>Location</h3>
+            <p>81 Evo Road, New GRA, Port Harcourt</p>
+          </div>
+        </div>
+        <div class="info-card reveal delay-3">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div>
+            <h3>Order</h3>
+            <p><a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank">WhatsApp Us</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-img reveal">
+          <img src="https://i.postimg.cc/CMWf75gG/66581.jpg" alt="Inside Bites and Ice cafe in Port Harcourt" />
+        </div>
+        <div class="about-text reveal delay-1">
+          <span class="stag">About Bites & Ice</span>
+          <h2>A colorful dessert experience with real local flavor.</h2>
+          <p>Bites & Ice is all about serving refreshing drinks, sweet treats and fun snack options in a cozy and welcoming environment. Whether you're in the mood for bubble tea, popsicles, pastries or mini pancakes, there's always something satisfying waiting for you.</p>
+          <p>Located in Port Harcourt, we make it easy for customers to stop by, order for delivery, or contact us directly through WhatsApp and phone.</p>
+          <div class="chips">
+            <span class="chip">Bubble Tea</span>
+            <span class="chip">Delivery</span>
+            <span class="chip">Card Payments</span>
+            <span class="chip">Open 7 Days</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="stag stag-light">Our Menu</span>
+          <h2>Popular menu favorites</h2>
+          <p>Refreshing drinks, sweet snacks and delicious treats customers keep coming back for.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="https://i.postimg.cc/1XVDvNX9/Artisan-popsicles-in-202603220708.jpg" alt="Popsicles at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Popsicles / Paletas</h3>
+              <p>Refreshing frozen treats in fruity flavors that look as good as they taste.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal delay-1">
+            <img src="https://i.postimg.cc/dDMrptTM/Bubble-tea-drink-202603220708.jpg" alt="Bubble tea at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Bubble Tea</h3>
+              <p>Creamy, colorful and fun to sip with delicious chewy pearls in every cup.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal delay-2">
+            <img src="https://i.postimg.cc/3wrSnnTr/Iced-tea-with-202603220709-(1).jpg" alt="Iced tea at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Iced Tea</h3>
+              <p>Cool, crisp and refreshing for a light drink that always hits the spot.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="https://i.postimg.cc/QtH6rCVW/Lemonade-drink-with-202603220711.jpg" alt="Lemonade at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Lemonade</h3>
+              <p>Fresh citrus flavor served ice-cold and perfect for a refreshing treat.</p>
+            </div>
+          </article>          <article class="menu-card reveal delay-1">
+            <img src="https://i.postimg.cc/52VkFfK6/Hot-chocolate-in-202603220710.jpg" alt="Hot chocolate at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Hot Chocolate</h3>
+              <p>Rich, warm and comforting with a smooth chocolate taste you'll love.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal delay-2">
+            <img src="https://i.postimg.cc/NG2NJKW9/Mini-pancakes-with-202603220710.jpg" alt="Mini pancakes at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Mini Pancakes</h3>
+              <p>Soft bite-sized pancakes topped for a sweet little indulgence.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="https://i.postimg.cc/cJJhQCRR/Corn-dog-waffle-202603220710.jpg" alt="Corn dog waffles at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Corn Dog Waffles</h3>
+              <p>Golden, crispy and savory with a fun twist for snack lovers.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal delay-1">
+            <img src="https://i.postimg.cc/1RFH0LqK/Pastries-on-dessert-202603220710.jpg" alt="Pastries at Bites and Ice" />
+            <div class="mc-body">
+              <h3>Pastries</h3>
+              <p>Fresh-baked bites that pair perfectly with your favorite drink.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="stag">Business Features</span>
+          <h2>Convenient service & easy payments</h2>
+          <p>Everything customers need for a smooth and easy experience.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feat-card reveal">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Delivery Available</h3>
+            <p>Order and enjoy Bites & Ice treats delivered to you.</p>
+          </div>
+          <div class="feat-card reveal delay-1">
+            <i class="fa-regular fa-credit-card"></i>
+            <h3>Credit Cards</h3>
+            <p>Pay easily with supported credit card options.</p>
+          </div>
+          <div class="feat-card reveal delay-2">
+            <i class="fa-solid fa-money-check-dollar"></i>
+            <h3>Debit Cards</h3>
+            <p>Quick and smooth debit card payments accepted.</p>
+          </div>
+          <div class="feat-card reveal delay-3">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h3>NFC Payments</h3>
+            <p>Modern tap-to-pay for a faster checkout experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hours section" id="hours">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="stag">Opening Hours</span>
+          <h2>Our weekly schedule</h2>
+          <p>Check our business hours before visiting or ordering.</p>
+        </div>
+        <div class="hours-card reveal" id="hoursCard">
+          <div class="hours-row" data-day="0"><span>Sunday</span><span>9:00 AM – 6:00 PM</span></div>
+          <div class="hours-row" data-day="1"><span>Monday</span><span>9:30 AM – 9:30 PM</span></div>
+          <div class="hours-row" data-day="2"><span>Tuesday</span><span>9:00 AM – 6:00 PM</span></div>
+          <div class="hours-row" data-day="3"><span>Wednesday</span><span>9:00 AM – 6:00 PM</span></div>
+          <div class="hours-row" data-day="4"><span>Thursday</span><span>9:00 AM – 6:00 PM</span></div>
+          <div class="hours-row" data-day="5"><span>Friday</span><span>9:00 AM – 6:00 PM</span></div>
+          <div class="hours-row" data-day="6"><span>Saturday</span><span>9:00 AM – 6:00 PM</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="stag">Gallery</span>
+          <h2>Real scenes from the store</h2>
+          <p>See the atmosphere, people and experience behind Bites & Ice.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gal-item large reveal"><img src="https://i.postimg.cc/3RF2VHFK/66578.jpg" alt="Bites and Ice moment" /></div>
+          <div class="gal-item reveal delay-1"><img src="https://i.postimg.cc/L8j5N3Ts/66579.jpg" alt="Bites and Ice interior" /></div>
+          <div class="gal-item reveal delay-2"><img src="https://i.postimg.cc/Px5qfskh/66580.jpg" alt="Bites and Ice customer" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="stag">Customer Reviews</span>
+          <h2>What customers say</h2>
+          <p>Real feedback from people who visited Bites & Ice.</p>
+        </div>
+        <div class="reviews-grid">
+          <div class="rev-card reveal">
+            <div class="rev-stars">★★★★★</div>
+            <p>"They are the best at what they do. Their boba tea and popsicles is the best in the whole of Port Harcourt city 🥰"</p>
+            <h4>Oladipupo Taiwo</h4>
+          </div>
+          <div class="rev-card reveal delay-1">
+            <div class="rev-stars">★★★★★</div>
+            <p>"Bring back our taro! I miss it. Best Boba spot in PHC no cap...."</p>
+            <h4>Dee Tamara</h4>
+          </div>
+          <div class="rev-card reveal delay-2">
+            <div class="rev-stars">★★★★★</div>
+            <p>"It's a very nice place, I love the strawberry boba and milkshakes."</p>
+            <h4>Jacob Wilson</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section" id="location">
+      <div class="container loc-grid">
+        <div class="loc-text reveal">
+          <span class="stag">Visit Us</span>
+          <h2>Find Bites & Ice in Port Harcourt</h2>
+          <p>Stop by for bubble tea, popsicles, mini pancakes, pastries and more.</p>
+          <div class="loc-details">
+            <p><strong>Address:</strong> 81 Evo Road, New GRA, Port Harcourt 500102, Rivers</p>
+            <p><strong>Phone:</strong> <a href="tel:08163997880">0816 399 7880</a></p>
+            <p><strong>Rating:</strong> 4.1 from 14 reviews</p>
+            <p><strong>Service:</strong> Delivery available</p>
+          </div>
+          <div class="loc-btns">
+            <a href="https://maps.google.com/?q=81+Evo+Road,+New+GRA,+Port+Harcourt" target="_blank" class="btn btn-primary">Get Directions</a>
+            <a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank" class="btn btn-outline">WhatsApp Us</a>
+          </div>
+        </div>
+        <div class="loc-img reveal delay-1">
+          <img src="https://i.postimg.cc/nL0HPRQb/43847d28-2c57-4d13-a281-19b282721e0a.jpg" alt="Bites and Ice storefront" />
+        </div>
+      </div>
+      <div class="container map-box reveal">
+        <iframe src="https://www.google.com/maps?q=81+Evo+Road,+New+GRA,+Port+Harcourt&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="cta section">
+      <div class="container">
+        <div class="cta-box reveal">
+          <span class="stag stag-pink">Order Today</span>
+          <h2>Ready for your next sweet treat?</h2>
+          <p>Call, chat on WhatsApp, or visit Bites & Ice today.</p>
+          <div class="cta-btns">
+            <a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Order on WhatsApp</a>
+            <a href="tel:08163997880" class="btn btn-outline"><i class="fa-solid fa-phone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="wa-float" href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="ft-brand">
+        <div class="ft-logo">
+          <img src="https://i.postimg.cc/J7gh82YL/IMG-20260322-055212.png" alt="Bites and Ice logo" />
+          <span>Bites & Ice</span>
+        </div>
+        <p>Bubble tea, popsicles, mini pancakes, pastries and more in Port Harcourt.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/bites_n_ice/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/bitesandice" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.tiktok.com/@bitesandice" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:biteznice@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:08163997880">0816 399 7880</a></p>
+        <p><a href="https://wa.me/2348163997880?text=Hello%20Bites%20%26%20Ice%2C%20I%20would%20like%20to%20make%20an%20order." target="_blank">WhatsApp Us</a></p>
+        <p><a href="mailto:biteznice@gmail.com">biteznice@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Location</h4>
+        <p>81 Evo Road, New GRA,<br />Port Harcourt 500102, Rivers</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p><a href="https://www.instagram.com/bites_n_ice/" target="_blank">Instagram</a></p>
+        <p><a href="https://www.facebook.com/bitesandice" target="_blank">Facebook</a></p>
+        <p><a href="https://www.tiktok.com/@bitesandice" target="_blank">TikTok</a></p>
+      </div>
+    </div>
+    <div class="container ft-bottom">
+      <p>&copy; 2026 Bites & Ice. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Bites & Ice",
+    "image": "https://i.postimg.cc/WpM2R1Zd/Make-this-for-202603220747.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "81 Evo Road, New GRA",
+      "addressLocality": "Port Harcourt",
+      "addressRegion": "Rivers",
+      "postalCode": "500102",
+      "addressCountry": "NG"
+    },
+    "telephone": "+2348163997880",
+    "servesCuisine": ["Bubble Tea", "Desserts", "Pastries", "Snacks"],
+    "url": "https://prosperoliverc124-byte.github.io/bites-and-ice/",
+    "priceRange": "₦₦",
+    "openingHours": ["Su 09:00-18:00","Mo 09:30-21:30","Tu 09:00-18:00","We 09:00-18:00","Th 09:00-18:00","Fr 09:00-18:00","Sa 09:00-18:00"]
+  }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
